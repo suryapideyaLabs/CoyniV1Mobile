@@ -6,11 +6,31 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		2GVLe635dK139tGmMFuavYt5ztM=
+		Ux02nhqQ7I6tyZ1sOoHeTnhgGBE=
 		</data>
 		<key>SAConfettiView.bundle/Info.plist</key>
 		<data>
-		/Ye0oOKRBoY9xhuWWpjCn8YO89s=
+		orYDw6dl1I4ywzPI+44K5i330RM=
+		</data>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeDirectory</key>
+		<data>
+		HeL6U5mrXpB7oCKJOJjW7nhjcfw=
+		</data>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		ynCsTSEwMuZR1yftZwuTvXjdW8k=
+		</data>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeResources</key>
+		<data>
+		ezr82zQyRmIoRaAHS5JXRalQaD8=
+		</data>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeSignature</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>SAConfettiView.bundle/confetti.png</key>
 		<data>
@@ -33,21 +53,48 @@
 	<dict>
 		<key>SAConfettiView.bundle/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			/Ye0oOKRBoY9xhuWWpjCn8YO89s=
-			</data>
 			<key>hash2</key>
 			<data>
-			2/bGDqh24ZTIUz2wfhMP3K9YKhpozU+UcobpNSjk0yw=
+			cVZp/GNvkXQDMhPaEaM1XiSkMzx7kWLwwkiY9D0yBx8=
+			</data>
+		</dict>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U3TPdB0X1C3VGXYJuCHjb2sEv4sB4s9jl64dLcZVII4=
+			</data>
+		</dict>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			43lGtTB2yIfT/Xp/+ydw5rz3GT5F42HzukQLe3zB4Tc=
+			</data>
+		</dict>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r0QhqN2phUWzyEQvEwYKgphQuivmso5DUI7pSOM3jxM=
+			</data>
+		</dict>
+		<key>SAConfettiView.bundle/_CodeSignature/CodeSignature</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>SAConfettiView.bundle/confetti.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			svnW5Gyo7AuXamwyFwxRak6dWGs=
-			</data>
 			<key>hash2</key>
 			<data>
 			ang0QiU/9pQI6MObtdtVKWRnI/elFo5XjGFcxztmIAE=
@@ -55,10 +102,6 @@
 		</dict>
 		<key>SAConfettiView.bundle/diamond.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IXSxPZvPWVwRPYhmjqsAWAdOP7I=
-			</data>
 			<key>hash2</key>
 			<data>
 			dB6z0OcLQJ2x59QsLH8JSYk81+kbHFiAjQ1CCXP0hQU=
@@ -66,10 +109,6 @@
 		</dict>
 		<key>SAConfettiView.bundle/star.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Y4XZcUITmpHHIC/xoQEtjIkG2O8=
-			</data>
 			<key>hash2</key>
 			<data>
 			eXI7T4AoyTY+8atm5ciiP7Gk0mbEogaJy6cIRPkzCP4=
@@ -77,10 +116,6 @@
 		</dict>
 		<key>SAConfettiView.bundle/triangle.png</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LgoRtdSKKuPVguYEjh4EhpSQv3U=
-			</data>
 			<key>hash2</key>
 			<data>
 			/eiTL/peiuteNRWJQhBUexchnItZvgFQR1c14AjyK94=
