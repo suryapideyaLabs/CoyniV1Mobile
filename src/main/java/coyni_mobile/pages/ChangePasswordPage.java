@@ -6,10 +6,10 @@ import org.openqa.selenium.By;
 
 public class ChangePasswordPage extends MobileFunctions {
 
-    private By txtOldPassword = MobileBy.xpath("");
-    private By txtNewPassword = MobileBy.xpath("");
-    private By txtConfirmPassword = MobileBy.xpath("");
-    private By btnConfirmAndSave = MobileBy.xpath("");
+    private By txtOldPassword = MobileBy.xpath("//*[@name='Old Password']");
+    private By txtNewPassword = MobileBy.xpath("//*[@name='New Password']");
+    private By txtConfirmPassword = MobileBy.xpath("//*[@name='Confirm Password']");
+    private By btnConfirmAndSave = MobileBy.xpath("//*[@name='Confirm & Save']");
 
     public void fillOldPassword(String oldPassword){
         enterText(txtOldPassword, oldPassword, "Old Password");

@@ -1,15 +1,16 @@
 package coyni_mobile.components;
 
 import ilabs.MobileFramework.MobileFunctions;
+import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 
 public class AddressComponent extends MobileFunctions {
-    private By txtAddressLine1 = By.xpath("");
-    private By txtAddressLine2 = By.xpath("");
-    private By drpDwnState = By.xpath("");
-    private By txtCity = By.xpath("");
-    private By txtZipcode = By.xpath("");
-    private By btnConfirmAndSave = By.xpath("");
+    private By txtAddressLine1 = MobileBy.xpath("//*[@name='Address Line 1']");
+    private By txtAddressLine2 = MobileBy.xpath("//*[@name='Address Line 2']");
+    private By drpDwnState = MobileBy.xpath("//*[contains(@name,'State')]");
+    private By txtCity = MobileBy.xpath("//*[@name='City']");
+    private By txtZipcode = MobileBy.xpath("//*[contains(@name,'Postal Code')]");
+    private By btnConfirmAndSave = MobileBy.xpath("//*[@name='Update']");
 
     private By getState(String state) {
         return By.xpath(String.format("//*[@name='%s']", state));

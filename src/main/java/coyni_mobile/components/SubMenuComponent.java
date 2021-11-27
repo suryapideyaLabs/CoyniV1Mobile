@@ -1,28 +1,18 @@
 package coyni_mobile.components;
 
-import coyni_mobile.pages.AddRecipientPage;
-import coyni_mobile.pages.ScanQRCodePage;
-import ilabs.mobile.reporting.ExtentTestManager;
 import org.openqa.selenium.By;
 
 import ilabs.MobileFramework.MobileFunctions;
 import io.appium.java_client.MobileBy;
-import org.openqa.selenium.NoAlertPresentException;
 
 public class SubMenuComponent extends MobileFunctions {
-    private By btnScanQR = MobileBy.id("com.coyni.android:id/layoutTScan");
-    private By btnPayOrRequest = MobileBy.id("com.coyni.android:id/layoutTPay");
-    private By btnBuyToken = MobileBy.id("com.coyni.android:id/layoutTBuy");
-    private By btnWithdraw = MobileBy.id("com.coyni.android:id/layoutTWihdraw");
+    //    private By btnSend = MobileBy.id("com.ideyalabs.quickcard:id/layoutTSend");
+//    private By btnReceive = MobileBy.id("com.ideyalabs.quickcard:id/layoutTReceive");
 
-    private void handlePopupIfExists() {
-        try {
-            String alert = getAlertText();
-            ExtentTestManager.setInfoMessageInReport("Alert displayed as "+alert);
-        } catch (NoAlertPresentException e){
-
-        }
-    }
+    private By btnScanQR = MobileBy.xpath("//*[@name='Scan QR']");
+    private By btnPayOrRequest = MobileBy.xpath("//*[@name='Pay / Request']");
+    private By btnBuyToken = MobileBy.xpath("//*[@name='Buy Tokens']");
+    private By btnWithdraw = MobileBy.xpath("//*[@name='Withdraw']");
 
     // sub menu actions
     public BuyTokenMenuComponent clickBuyToken() {
@@ -30,16 +20,12 @@ public class SubMenuComponent extends MobileFunctions {
         return new BuyTokenMenuComponent();
     }
 
-    public ScanQRCodePage clickScanQR() {
+    public void clickScanQR() {
         click(btnScanQR, "Scan QR");
-        handlePopupIfExists();
-        return new ScanQRCodePage();
     }
 
-    public AddRecipientPage clickPayOrRequest() {
+    public void clickPayOrRequest() {
         click(btnPayOrRequest, "Pay / Request");
-        handlePopupIfExists();
-        return new AddRecipientPage();
     }
 
     public WithdrawMenuComponent clickWithdraw() {

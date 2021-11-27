@@ -5,13 +5,15 @@ import ilabs.MobileFramework.MobileFunctions;
 import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 
+import java.util.TimeZone;
+
 public class PreferencesComponent extends MobileFunctions {
 
-    private By drpDwnTimeZone = MobileBy.xpath("");
+    private By drpDwnTimeZone = MobileBy.xpath("//*[@name='down-arrow']");
     private By drpDwnOptions = MobileBy.xpath("");
-    private By txtLocalCurrency = MobileBy.xpath("");
-    private By btnUpdate = MobileBy.xpath("");
-    private By btnClose = MobileBy.xpath("");
+    private By txtLocalCurrency = MobileBy.xpath("//*[@name='Local Currency']");
+    private By btnUpdate = MobileBy.xpath("(//*[@name='Update'])[1]");
+    private By btnClose = MobileBy.xpath("//*[@name='cancel']");
 
 
     public void selectTimeZone(String timeZone){
