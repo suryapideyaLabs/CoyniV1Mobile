@@ -10,7 +10,6 @@ public class WithdrawMenuComponent extends MobileFunctions {
     // withdraw options
     private By btnInstantPay = MobileBy.id("com.coyni.android:id/layoutInstant");
     private By btnGiftCard = MobileBy.id("com.coyni.android:id/layoutInstant");
-    private By btnBankAccountWithDraw = MobileBy.id("com.coyni.android:id/layoutWBank");
     private By btnSignetAccount = MobileBy.id("com.coyni.android:id/layoutWSignet");
 
     // withdraw options actions
@@ -20,10 +19,6 @@ public class WithdrawMenuComponent extends MobileFunctions {
 
     public void clickGiftCard(){
         click(btnGiftCard, "Gift Card");
-    }
-
-    public void clickWithdrawBankAccount(){
-        click(btnBankAccountWithDraw, "Bank Account");
     }
 
     public void clickSignetAccount(){
