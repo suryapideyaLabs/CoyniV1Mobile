@@ -9,10 +9,10 @@ public class SubMenuComponent extends MobileFunctions {
     //    private By btnSend = MobileBy.id("com.ideyalabs.quickcard:id/layoutTSend");
 //    private By btnReceive = MobileBy.id("com.ideyalabs.quickcard:id/layoutTReceive");
 
-    private By btnScanQR = MobileBy.id("com.coyni.android:id/layoutTScan");
-    private By btnPayOrRequest = MobileBy.id("com.coyni.android:id/layoutTPay");
-    private By btnBuyToken = MobileBy.id("com.coyni.android:id/layoutTBuy");
-    private By btnWithdraw = MobileBy.id("com.coyni.android:id/layoutTWihdraw");
+    private By btnScanQR = MobileBy.xpath("//*[@name='Scan QR']");
+    private By btnPayOrRequest = MobileBy.xpath("//*[@name='Pay / Request']");
+    private By btnBuyToken = MobileBy.xpath("//*[@name='Buy Tokens']");
+    private By btnWithdraw = MobileBy.xpath("//*[@name='Withdraw']");
 
     // sub menu actions
     public BuyTokenMenuComponent clickBuyToken() {

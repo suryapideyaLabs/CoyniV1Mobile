@@ -8,13 +8,13 @@ import io.appium.java_client.MobileBy;
 
 public class CreateAnAccountPage extends MobileFunctions {
 
-    private By txtFirstName = MobileBy.xpath("//*[contains(@resource-id, 'etFirstName')]");
-    private By txtLastName = MobileBy.xpath("//*[contains(@resource-id, 'etFirstName')]");
-    private By txtPhoneNum = MobileBy.xpath("//*[contains(@resource-id, 'etFirstName')]");
-    private By txtEmail = MobileBy.xpath("//*[contains(@resource-id, 'etFirstName')]");
-    private By lnkPrivacyPolicy = MobileBy.xpath("//*[contains(@resource-id, 'etFirstName')]");
-    private By lnkTermsOfService = MobileBy.xpath("//*[contains(@resource-id, 'etFirstName')]");
-    private By btnNext = MobileBy.xpath("//*[contains(@resource-id, 'etFirstName')]");
+    private By txtFirstName = MobileBy.xpath("//*[@name='First Name']");
+    private By txtLastName = MobileBy.xpath("//*[@name='Last Name']");
+    private By txtPhoneNum = MobileBy.xpath("//*[@name='Phone Number']");
+    private By txtEmail = MobileBy.xpath("//*[@name='Email']");
+    private By lnkPrivacyPolicy = MobileBy.xpath("//*[@name='Privacy Policy']");
+    private By lnkTermsOfService = MobileBy.xpath("//*[@name='Terms of Services']");
+    private By btnNext = MobileBy.xpath("//*[@name='Next']");
 
     public void verifyCreateAnAccountPage(){
         if(isElementPresent(txtFirstName)){

@@ -7,8 +7,8 @@ import org.openqa.selenium.By;
 
 public class SecurityComponent extends MobileFunctions {
 
-    private By radBtnUseScreenLock = MobileBy.xpath("");
-    private By btnClose = MobileBy.xpath("");
+    private By radBtnUseScreenLock = MobileBy.xpath("//*[@name='Use Screen Lock']/following-sibling::*[1]");
+    private By btnClose = MobileBy.xpath("//*[@name='cancel']");
 
     public void clickUseScreenLock(){
         click(radBtnUseScreenLock, "Use Screen Lock Button");

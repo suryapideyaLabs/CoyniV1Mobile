@@ -6,8 +6,8 @@ import org.openqa.selenium.By;
 
 public class ForgotPasswordPage extends MobileFunctions {
 
-    private By txtEmailAddress = MobileBy.xpath("");
-    private By btnSendInstructions = MobileBy.xpath("");
+    private By txtEmailAddress = MobileBy.xpath("//*[@name='Enter Email address']");
+    private By btnSendInstructions = MobileBy.xpath("//*[@name='Send Instructions']");
 
     public void fillEmailAddress(String email){
         enterText(txtEmailAddress, email, "Enter Email Address");

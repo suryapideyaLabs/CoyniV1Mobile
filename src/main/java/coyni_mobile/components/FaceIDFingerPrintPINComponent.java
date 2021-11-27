@@ -6,8 +6,8 @@ import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 
 public class FaceIDFingerPrintPINComponent extends MobileFunctions {
-    private By radBtnFaceIDFingerprintPIN = MobileBy.xpath("");
-    private By btnClose = MobileBy.xpath("");
+    private By radBtnFaceIDFingerprintPIN = MobileBy.xpath("//*[@name='Face ID / Fingerprint and PIN']");
+    private By btnClose = MobileBy.xpath("//*[@name='cancel']");
 
     public void clickFaceIDFingerprintPIN(){
         click(radBtnFaceIDFingerprintPIN, "Face ID/ Fingerprint and PIN button");

@@ -9,17 +9,17 @@ import org.openqa.selenium.By;
 
 public class ProfilePage extends MobileFunctions {
 
-    private By btnLogout = MobileBy.xpath("");
-    private By btnMyProfile = MobileBy.xpath("");
-    private By btnNotifications = MobileBy.xpath("");
-    private By btnRequests = MobileBy.xpath("");
-    private By btnPaymentMethods = MobileBy.xpath("");
-    private By btnPreferences = MobileBy.xpath("");
-    private By btnAccountLimits = MobileBy.xpath("");
-    private By btnChangePassword = MobileBy.xpath("");
-    private By btnSecurity = MobileBy.xpath("");
-    private By btnFaceIDOrFingerPrint = MobileBy.xpath("");
-    private By btnAgreements = MobileBy.xpath("");
+    private By btnLogout = MobileBy.xpath("//*[@name='Logout']");
+    private By btnMyProfile = MobileBy.xpath("//*[@name='My Profile']");
+    private By btnNotifications = MobileBy.xpath("//*[@name='Notifications']");
+    private By btnRequests = MobileBy.xpath("//*[@name='Requests']");
+    private By btnPaymentMethods = MobileBy.xpath("//*[@name='Payment Methods']");
+    private By btnPreferences = MobileBy.xpath("//*[@name='Preferences']");
+    private By btnAccountLimits = MobileBy.xpath("//*[@name='Account Limits']");
+    private By btnChangePassword = MobileBy.xpath("//*[@name='Change Password']");
+    private By btnSecurity = MobileBy.xpath("//*[@name='Security']");
+    private By btnFaceIDOrFingerPrint = MobileBy.xpath("//*[contains(@name,'Fingerprint and PIN')]");
+    private By btnAgreements = MobileBy.xpath("//*[@name='Agreements']");
 
     public MyProfilePage clickMyProfile(){
         click(btnMyProfile, "My Profile");

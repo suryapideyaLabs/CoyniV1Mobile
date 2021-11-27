@@ -7,9 +7,8 @@ import io.appium.java_client.MobileBy;
 
 public class BuyTokenMenuComponent extends MobileFunctions {
     // buy token options
-    private By btnCreditDebitCards = MobileBy.id("com.coyni.android:id/layoutCard");
-    private By btnBankAccount = MobileBy.id("com.coyni.android:id/layoutBank");
-
+    private By btnCreditDebitCards = MobileBy.xpath("//*[@name='Credit / Debit Cards']");
+    private By btnBankAccount = MobileBy.xpath("//*[@name='External Bank Account']");
     // buy token option actions
     public void clickCreditDebitCards() {
         click(btnCreditDebitCards, "Credit/Debit Cards");

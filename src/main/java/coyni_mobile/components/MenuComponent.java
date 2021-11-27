@@ -8,11 +8,11 @@ import org.openqa.selenium.By;
 
 public class MenuComponent extends MobileFunctions {
 
-    private By menuToken = MobileBy.xpath("");
-    private By menuAssets = MobileBy.xpath("");
-    private By menuTransactions = MobileBy.xpath("");
-    private By menuIssuing = MobileBy.xpath("");
-    private By menuMenu = MobileBy.xpath("");
+    private By menuToken = MobileBy.xpath("//*[@name='Token']");
+    private By menuAssets = MobileBy.xpath("//*[@name='Assets']");
+    private By menuTransactions = MobileBy.xpath("//*[@name='Group']");
+    private By menuIssuing = MobileBy.xpath("//*[@name='Issuing']");
+    private By menuMenu = MobileBy.xpath("//*[@name='Menu']");
 
     public void clickToken(){
         click(menuToken, "Token Menu");

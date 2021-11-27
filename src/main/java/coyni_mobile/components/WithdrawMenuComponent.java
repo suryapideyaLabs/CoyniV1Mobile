@@ -8,10 +8,10 @@ import io.appium.java_client.MobileBy;
 public class WithdrawMenuComponent extends MobileFunctions {
 
     // withdraw options
-    private By btnInstantPay = MobileBy.id("com.coyni.android:id/layoutInstant");
-    private By btnGiftCard = MobileBy.id("com.coyni.android:id/layoutInstant");
-    private By btnBankAccountWithDraw = MobileBy.id("com.coyni.android:id/layoutWBank");
-    private By btnSignetAccount = MobileBy.id("com.coyni.android:id/layoutWSignet");
+    private By btnInstantPay = MobileBy.xpath("//*[@name='Instant Pay']");
+    private By btnGiftCard = MobileBy.xpath("//*[@name='Gift Card']");
+    private By btnBankAccountWithDraw = MobileBy.xpath("//*[@name='Signet Account']");
+    private By btnSignetAccount = MobileBy.xpath("//*[@name='Bank Account']");
 
     // withdraw options actions
     public void clickInstantPay(){

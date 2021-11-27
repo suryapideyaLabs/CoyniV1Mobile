@@ -9,11 +9,11 @@ import org.openqa.selenium.By;
 
 public class EnterCardDetailsPage extends MobileFunctions {
 
-    private By txtCardHolderName = MobileBy.xpath("");
-    private By txtCardNumber = MobileBy.xpath("");
-    private By txtExpiryDate = MobileBy.xpath("");
-    private By txtCVV = MobileBy.xpath("");
-    private By btnProceed = MobileBy.xpath("");
+    private By txtCardHolderName = MobileBy.xpath("//*[@name='Card Holder Name']");
+    private By txtCardNumber = MobileBy.xpath("//*[@name='Card Number']");
+    private By txtExpiryDate = MobileBy.xpath("//*[@name='Expiry Date']");
+    private By txtCVV = MobileBy.xpath("//*[@name='CVV / CVC']");
+    private By btnProceed = MobileBy.xpath("//*[@name='Proceed']");
     private By txtPreAuthAmount = MobileBy.xpath("");
     private By btnVerifyCard = MobileBy.xpath("");
     private By lblPreAuthFailedMsg = MobileBy.xpath("");

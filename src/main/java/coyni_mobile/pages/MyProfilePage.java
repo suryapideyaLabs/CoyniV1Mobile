@@ -7,12 +7,13 @@ import org.openqa.selenium.By;
 
 public class MyProfilePage extends MobileFunctions {
 
-    private By lblUserName = MobileBy.xpath("");
-    private By lblEmail = MobileBy.xpath("");
-    private By lblPhoneNumber = MobileBy.xpath("");
-    private By lblLocalCurrency = MobileBy.xpath("");
-    private By btnEditAddressIcon = MobileBy.xpath("");
-    private By lblCurrentAddresss = MobileBy.xpath("");
+    private By lblUserName = MobileBy.xpath("//*[@name='User Name']/following-sibling::*[2]");
+    private By lblEmail = MobileBy.xpath("//*[@name='Email']/following-sibling::*[2]");
+    private By lblPhoneNumber = MobileBy.xpath("//*[@name='Phone Number']/following-sibling::*[2]");
+    private By lblLocalCurrency = MobileBy.xpath("//*[@name='Local Currency']/following-sibling::*[2]");
+    private By btnEditAddressIcon = MobileBy.xpath("//*[@name='EditAppColor']");
+    private By lblCurrentAddresss = MobileBy.xpath("//*[@name='Address']/following-sibling::*[1]");
+    private By lblStatus =MobileBy.xpath("//*[@name='Active']");
 
     public void verifyUserName(String expUserName){
         String actUserName = getText(lblUserName);
