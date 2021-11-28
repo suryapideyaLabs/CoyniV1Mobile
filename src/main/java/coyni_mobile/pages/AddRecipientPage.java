@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 public class AddRecipientPage extends MobileFunctions {
-    private By txtSearchByName = MobileBy.xpath("");
+    private By txtSearchByName = MobileBy.xpath("//*[@name='scanQRLogo']/preceding-sibling::*[1]");
 
     public By getContactFromRecentPeople(String contactName) {
         return MobileBy.xpath(String.format("//XCUIElementTypeCollectionView//*[@name='%s']", contactName));

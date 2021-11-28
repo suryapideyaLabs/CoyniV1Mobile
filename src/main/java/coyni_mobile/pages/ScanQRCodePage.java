@@ -6,10 +6,10 @@ import io.appium.java_client.MobileBy;
 import org.openqa.selenium.By;
 
 public class ScanQRCodePage extends MobileFunctions {
-    private By tabScanCode = MobileBy.xpath("");
-    private By tabMyQRCode = MobileBy.xpath("");
-    private By btnShare = MobileBy.xpath("");
-    private By btnCopy = MobileBy.xpath("");
+    private By tabScanCode = MobileBy.xpath("//*[@name='Scan Code']");
+    private By tabMyQRCode = MobileBy.xpath("//*[@name='My QR Code']");
+    private By btnShare = MobileBy.xpath("//*[@name='share']");
+    private By btnCopy = MobileBy.xpath("//*[@name='copy2']");
     private By popupShare = MobileBy.xpath("//*[@name='ActivityListView']");
     private By btnClosePopup = MobileBy.xpath("//*[@name='Close']");
 

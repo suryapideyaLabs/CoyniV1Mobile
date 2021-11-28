@@ -8,14 +8,14 @@ import org.openqa.selenium.By;
 
 public class PayOrRequestPage extends MobileFunctions {
    
-    private By lblDailyLimit = MobileBy.xpath("");
-    private By lblBalance = MobileBy.xpath("");
-    private By txtAmount = MobileBy.xpath("");
-    private By txtMessageToRecipient = MobileBy.xpath("");
-    private By btnPay = MobileBy.xpath("");
-    private By btnRequest = MobileBy.xpath("");
-    private By imgClock = MobileBy.xpath("");
-    private By btnSuccessImage = MobileBy.xpath("");
+    private By lblDailyLimit = MobileBy.xpath("//*[contains(@name,'Your daily limit ')]");
+    private By lblBalance = MobileBy.xpath("//*[@name='coyniLogo']/following-sibling::*[2]");
+    private By txtAmount = MobileBy.xpath("//*[@name='max']/preceding-sibling::*[1]");
+    private By txtMessageToRecipient = MobileBy.xpath("//*[contains(@name,'/160')]/preceding-sibling::*[1]");
+    private By btnPay = MobileBy.xpath("//*[@name='Pay']");
+    private By btnRequest = MobileBy.xpath("//*[@name='Request']");
+    private By imgClock = MobileBy.xpath("//*[@name='clock']");
+    private By btnSuccessImage = MobileBy.xpath("//*[@name='debitSucces']");
     private By lblRequestedAmountMsg = MobileBy.xpath("//*[@name='Done']/preceding-sibling::*[1]");
     private By btnDone = MobileBy.xpath("//*[@name='Done']");
 

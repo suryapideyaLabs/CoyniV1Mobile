@@ -8,9 +8,9 @@ import org.openqa.selenium.By;
 
 public class AddSignetAccountPage extends MobileFunctions {
 
-    private By txtNameOnSignetAccount = MobileBy.xpath("");
-    private By txtSignetWalletId = MobileBy.xpath("");
-    private By btnConfirmAndSave = MobileBy.xpath("");
+    private By txtNameOnSignetAccount = MobileBy.xpath("//*[@name='Name on Signet Account']");
+    private By txtSignetWalletId = MobileBy.xpath("//*[@name='Signet Wallet ID']");
+    private By btnConfirmAndSave = MobileBy.xpath("//*[@name='Confirm & Save']");
 
     public AddressComponent addressComponent(){
         return new AddressComponent();
